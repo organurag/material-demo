@@ -1,0 +1,17 @@
+
+<div class="center">
+    <div class="card">
+        <h3>Name : {{user.name}} </h3>
+        <h3 *ngIf="user.gender == '1'" >Gender: Male</h3>
+        <h3 *ngIf="user.gender == '2'" >Gender: Female</h3>
+        <h3>Education : </h3>
+        <h3 *ngIf="user.education.tenth" >10th</h3>
+        <h3 *ngIf="user.education.twelfth" >12th</h3>
+        <h3 *ngIf="user.education.btech" >Btech</h3>
+        <h3 *ngIf="user.education.mtech" >Mtech</h3>
+       
+        <h3>Security Question:  {{user.securityQuestion}}</h3>
+        <h3>Answer:  {{user.selected}}</h3>
+        </div>
+        
+</div>

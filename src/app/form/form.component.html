@@ -1,0 +1,12 @@
+<div class="card">
+   
+   <div [formGroup]="form" class="example-form">
+      <div class="title">
+         <h3>Login</h3>
+       </div>
+      <app-custom-input-s [control]="form.get('email')" label="Email" placeholder="Enter Email" type="email"></app-custom-input-s>
+      <app-custom-input-s [control]="form.get('password')" label="Password" placeholder="Enter Password" type="password"></app-custom-input-s>
+      <button mat-raised-button color="primary" (click)="login()">Submit</button>
+     </div>
+    
+</div>

@@ -1,0 +1,22 @@
+<!-- <div class="card">
+  <div [formGroup]="form" class="example-form">
+    <div class="title">
+      <h3>Login</h3>
+    </div> -->
+
+    <!-- <app-custom-input Type="email" formControlName="email" label="email" placeholder="enter email"></app-custom-input>
+
+    <app-custom-input Type="password" formControlName="password" label="password" placeholder="enter password"></app-custom-input> -->
+
+    <!-- <app-custom-input formControlName="customInput" [form]="form" label="Custom Input" placeholder="Enter something" Type="email"></app-custom-input>
+    <app-custom-input formControlName="anotherInput" [form]="form" label="Another Input" placeholder="Enter something else" Type="password"></app-custom-input>
+
+    <button color="primary" mat-raised-button type="submit" (click)="onSubmit()">Submit</button>
+</div>
+</div> -->
+  
+<div [formGroup]="form">
+  <app-custom-input [control]="form.get('customInput')"  label="Custom Input" placeholder="Enter something" type="email"></app-custom-input>
+  <app-custom-input [control]="form.get('anotherInput')"  label="Another Input" placeholder="Enter something else" type="password"></app-custom-input>
+  <button mat-raised-button (click)="login()">Submit</button>
+</div>

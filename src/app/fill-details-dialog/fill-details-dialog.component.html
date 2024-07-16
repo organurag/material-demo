@@ -1,0 +1,13 @@
+<div style="background-color: white; justify-content: center; text-align: center;">
+  <h1 mat-dialog-title style="color: black;">Input Error</h1>
+  <div mat-dialog-content>
+    <ul style="color: red; list-style: none; padding: 0%; ">
+      <li *ngIf="data.errors.required">* This field is required</li>
+      <li *ngIf="data.errors.email">* Invalid email address</li>
+    </ul>
+  </div>
+  <div mat-dialog-actions style=" justify-content: center;">
+    <button mat-raised-button mat-dialog-close>OK</button>
+  </div>
+
+</div>

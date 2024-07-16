@@ -1,0 +1,18 @@
+
+
+<mat-card>
+  <mat-card-title>
+    <h3>User Logged In</h3>
+  </mat-card-title>
+</mat-card>
+<mat-grid-list cols="10" rowHeight="100px">
+    <mat-grid-tile
+        *ngFor="let tile of tiles"
+        [colspan]="tile.cols"
+        [rowspan]="tile.rows"
+        [style.background]="tile.color">
+      {{tile.text}}
+    </mat-grid-tile>
+    
+  
+  </mat-grid-list>

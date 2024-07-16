@@ -1,0 +1,13 @@
+<mat-form-field appearance="fill" class="full-width">
+  <mat-label>{{ label }}</mat-label>
+  <input
+    matInput
+    [placeholder]="placeholder"
+    [type]="type"
+    [formControl]="control"
+    appBlurHandler [control]="control" (dialogeStatus)="openErrors($event)"
+    (input)="onChange($event.target.value)"
+  >
+  <mat-error *ngIf="control.hasError('required') && !dialoge" >This field is required</mat-error>
+  <mat-error *ngIf="control.hasError('email') && !dialoge">Invalid email address</mat-error>
+</mat-form-field>

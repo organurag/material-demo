@@ -1,0 +1,31 @@
+.container-page{  
+  display: flex;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+
+}
+.container{
+    width: 70%;
+    margin: 10px auto;
+    align-content: center;
+}
+
+
+.demo-table {
+  width: 100%;
+}
+
+/* .mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  border-color: currentColor;
+}
+
+.demo-row-is-clicked {
+  font-weight: bold;
+} */

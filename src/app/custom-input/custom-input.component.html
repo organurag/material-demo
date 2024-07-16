@@ -1,0 +1,19 @@
+<mat-form-field appearance="fill">
+    <mat-label>{{ label }}</mat-label>
+    <input
+      matInput
+      [placeholder]="placeholder"
+      
+      [type]="type"
+      (input)="updateValue($event.target.value)"
+      [disabled]="isDisabled"
+      [formControl]="control"
+      (keydown)="handleKeyDown($event)"
+      (mouseleave)="handleMouseDown($event)"
+      
+      
+    >
+    <mat-error *ngIf="control.hasError('required') && validated == true ">This field is required</mat-error>
+    <mat-error *ngIf="control.hasError('email') && validated == true ">Invalid email address</mat-error>
+  </mat-form-field>
+  

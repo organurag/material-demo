@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <button  mat-raised-button routerLink="table-grid">Table Grid</button>
+  <button mat-raised-button routerLink="scrolable">Scrolable</button>
+  <button mat-raised-button routerLink="http-grid">Http Grid</button>
+    <div class="spacer"></div>
+    <button *ngIf="isLogged" mat-button >Welcome: {{user.username}}</button>
+    <button *ngIf="!isLogged" mat-raised-button routerLink="login">Login</button>   
+    <button *ngIf="isLogged" mat-raised-button (click)="logout()">Logout</button> 
+    <button mat-button routerLink="register">Register</button>
+    <button mat-button *ngIf="isLogged" routerLink="grid" routerLink="grid">Grid</button>
+  </mat-toolbar>
