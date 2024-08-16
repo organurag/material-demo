@@ -59,7 +59,8 @@ export class RegisterComponent {
 
     this.dataService.setUser(this.user);
 
-    this.userForm.reset();
+    this.userForm.reset(); 
+
     this.router.navigate(['userShow']);
   }
 
@@ -67,3 +68,4 @@ export class RegisterComponent {
  
 
 }
+ 

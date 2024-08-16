@@ -1,16 +1,266 @@
 {
   "users": [
-    { "id": 1, "name": "John Doe" },
-    { "id": 2, "name": "Jane Doe" },
-    { "id": 3, "name": "Jim Brown" },
-    { "id": 4, "name": "Jake White" },
-    { "id": 5, "name": "Jill Green" },
-    { "id": 6, "name": "Jack Black" },
-    { "id": 7, "name": "Anna Smith" },
-    { "id": 8, "name": "Tom Clark" },
-    { "id": 9, "name": "Sara Wright" },
-    { "id": 10, "name": "Mike Johnson" },
-    { "id": 11, "name": "Emma Watson" },
-    { "id": 12, "name": "Olivia Brown" }
+    {
+      "id": "5",
+      "email": "Lucio_Hettinger@annie.ca",
+      "username": "Kamren1",
+      "name": "Chelsey Dietrich",
+      "city": "Mumbai",
+      "gender": "Male"
+    },
+    {
+      "id": "6",
+      "email": "Karley_Dach@jasper.info",
+      "username": "Leopoldo_Corkery",
+      "name": "Mrs. Dennis Schulist",
+      "city": "Pune",
+      "gender": "Male"
+    },
+    {
+      "id": "7",
+      "email": "Telly.Hoeger@billy.biz",
+      "username": "Elwyn.Skiles",
+      "name": "Kurtis Weissnat",
+      "city": "Hyderabad",
+      "gender": "Male"
+    },
+    {
+      "id": "8",
+      "email": "Sherwood@rosamond.me",
+      "username": "Maxime_Nienow",
+      "name": "Nicholas Runolfsdottir V",
+      "city": "Mumbai",
+      "gender": "Male"
+    },
+    {
+      "id": "10",
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz",
+      "city": "Solapur",
+      "gender": "Female",
+      "address": {
+        "street": "Kattie Turnpike",
+        "suite": "Suite 198",
+        "city": "Lebsackbury",
+        "zipcode": "31428-2261",
+        "geo": {
+          "lat": "-38.2386",
+          "lng": "57.2232"
+        }
+      },
+      "phone": "024-648-3804",
+      "website": "ambrose.net",
+      "company": {
+        "name": "Hoeger LLC",
+        "catchPhrase": "Centralized empowering task-force",
+        "bs": "target end-to-end models"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "city": "Mumbai",
+      "gender": "Male",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+          "lat": "-43.9509",
+          "lng": "-34.4618"
+        }
+      },
+      "phone": "010-692-6593 x09125",
+      "website": "anastasia.net",
+      "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "city": "Pune",
+      "gender": "Female",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157",
+        "geo": {
+          "lat": "-68.6102",
+          "lng": "-47.0653"
+        }
+      },
+      "phone": "1-463-123-4447",
+      "website": "ramiro.info",
+      "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      }
+    },
+    {
+      "id": "14",
+      "email": "Julianne.OConner@kory.org",
+      "username": "Karianne",
+      "name": "Patricia Lebsack"
+    },
+    {
+      "id": "15",
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca",
+      "city": "Pune",
+      "gender": "Female",
+      "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263",
+        "geo": {
+          "lat": "-31.8129",
+          "lng": "62.5342"
+        }
+      },
+      "phone": "(254)954-1289",
+      "website": "demarco.info",
+      "company": {
+        "name": "Keebler LLC",
+        "catchPhrase": "User-centric fault-tolerant solution",
+        "bs": "revolutionize end-to-end systems"
+      }
+    },
+    {
+      "id": "16",
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "city": "Mumbai",
+      "gender": "Male",
+      "address": {
+        "street": "Norberto Crossing",
+        "suite": "Apt. 950",
+        "city": "South Christy",
+        "zipcode": "23505-1337",
+        "geo": {
+          "lat": "-71.4197",
+          "lng": "71.7478"
+        }
+      },
+      "phone": "1-477-935-8478 x6430",
+      "website": "ola.org",
+      "company": {
+        "name": "Considine-Lockman",
+        "catchPhrase": "Synchronised bottom-line interface",
+        "bs": "e-enable innovative applications"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "city": "Hyderabad",
+      "gender": "Female",
+      "address": {
+        "street": "Rex Trail",
+        "suite": "Suite 280",
+        "city": "Howemouth",
+        "zipcode": "58804-1099",
+        "geo": {
+          "lat": "24.8918",
+          "lng": "21.8984"
+        }
+      },
+      "phone": "210.067.6132",
+      "website": "elvis.io",
+      "company": {
+        "name": "Johns Group",
+        "catchPhrase": "Configurable multimedia task-force",
+        "bs": "generate enterprise e-tailers"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "city": "Pune",
+      "gender": "Male",
+      "address": {
+        "street": "Ellsworth Summit",
+        "suite": "Suite 729",
+        "city": "Aliyaview",
+        "zipcode": "45169",
+        "geo": {
+          "lat": "-14.3990",
+          "lng": "-120.7677"
+        }
+      },
+      "phone": "586.493.6943 x140",
+      "website": "jacynthe.com",
+      "company": {
+        "name": "Abernathy Group",
+        "catchPhrase": "Implemented secondary concept",
+        "bs": "e-enable extensible e-tailers"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz",
+      "city": "Hyderabad",
+      "gender": "Female",
+      "address": {
+        "street": "Kattie Turnpike",
+        "suite": "Suite 198",
+        "city": "Lebsackbury",
+        "zipcode": "31428-2261",
+        "geo": {
+          "lat": "-38.2386",
+          "lng": "57.2232"
+        }
+      },
+      "phone": "024-648-3804",
+      "website": "ambrose.net",
+      "company": {
+        "name": "Hoeger LLC",
+        "catchPhrase": "Centralized empowering task-force",
+        "bs": "target end-to-end models"
+      }
+    },
+    {
+      "id": "21",
+      "email": "anurag@a.com",
+      "username": "mranurag",
+      "name": "Anurag",
+      "city": "Pune",
+      "gender": "Male"
+    },
+    {
+      "id": "23",
+      "email": "gopi@g.com",
+      "username": "gopis",
+      "name": "Gopi",
+      "city": "Hyderabad",
+      "gender": "Male"
+    },
+    {
+      "id": "21",
+      "email": "gopi@g.com",
+      "username": "Gopik",
+      "name": "Gop",
+      "city": "Hyderabad",
+      "gender": "Male"
+    }
   ]
 }
